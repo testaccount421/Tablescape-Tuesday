@@ -118,9 +118,9 @@ hr{
 }
 
 #allc{
-  height: 265%;
-  margin-right: 18%;
-  margin-left: 18%;
+  height: auto;
+  margin-right: 15%;
+  margin-left: 15%;
   background-color: white;
   margin-bottom: 4%;
 }
