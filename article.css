@@ -1,13 +1,15 @@
 #article{
   text-align: center;
   border-style: solid;
-  border-width: 2px;
-  margin-right: 24%;
-  margin-left: 24%;
+  border-width: .09vw;
+  margin-right: 18%;
+
   margin-top: 3%;
-  background-color: white; 
+  margin-bottom: 0;
+  background-color: white;
   border-radius: 8px;
-  height: 2700px
+  box-shadow: 10px 5px 15px grey;
+  width: 57%;
 }
 
 
@@ -18,7 +20,7 @@
 
 #pimg img{
   border-radius: 10px;
-  
+
 }
 
 p{
@@ -32,4 +34,10 @@ p{
 
 #allc{
   height: 320%;
+}
+
+#comment{
+  text-align: center;
+  height: 300px;
+  margin-top: 10%;
 }
