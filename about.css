@@ -1,0 +1,17 @@
+#abt img{
+  border-radius: 360px;
+  margin: auto;
+  display: block
+
+}
+
+#abt{
+  width: 45%;
+  height: 10%;
+  margin: auto;
+  margin-top: 2%;
+}
+
+h2{
+  text-align: center;
+}
