@@ -35,38 +35,47 @@ nav a{
 }
 
 
-#wpost{
-  display: flex;
-  justify-content: space-between;
-
-}
-
 #post{
-  text-align: center;
-  border-style: solid;
-  border-width: .09vw;
-  margin-right: 18%;
-
-  margin-top: 3%;
-  margin-bottom: 0;
-  background-color: white;
-  border-radius: 8px;
-  box-shadow: 10px 5px 15px grey;
-  width: 57%;
-}
-
-#det{
-  margin-left: 8vw;
+  display: flex;
+  width: 75%;
+  border: solid;
+  margin: auto;
   margin-top: 4%;
 
-  float: left;
-  font-size: 90%;
-  width: 10%;
-  text-align: left;
-  padding-left: .5%;
-  color: gray;
-
 }
+
+#post2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 20%;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+#ipic{
+  float: right;
+  object-fit: contain;
+  max-width: 80%;
+}
+
+#title{
+  color: red;
+}
+
+#date{
+  color: gray;
+}
+
+#author{
+  color: blue;
+}
+
+
+
+
+
 
 /*  also above used to be .7vw
 
@@ -81,40 +90,6 @@ nav a{
 */
 
 
-
-
-h1{
-  font-size: 270%;
-  margin-bottom: 2.5%;
-}
-
-#post img{
-  border-radius: 10px;
-}
-
-p{
-  margin-left: 12%;
-  margin-right: 12%;
-  font-size: 95%;
-}
-
-
-#arw img{
-  margin-top: 1%;
-  margin-bottom: 2%;
-  width: 8%;
-  height: 8%;
-}
-
-#post a{
-  text-decoration: none;
-  color: black;
-}
-
-
-#pimg img{
-  width: 80%;
-}
 
 
 #const{
@@ -148,9 +123,4 @@ hr{
   margin-left: 15%;
   background-color: white;
   margin-bottom: 4%;
-}
-
-#det a{
-  text-decoration: none;
-  color: gray;
 }
