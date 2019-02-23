@@ -1,5 +1,5 @@
 body{
-  background-color: gray;
+  background-color: white;
   font-family: 'Questrial', sans-serif;
   margin: auto;
 
@@ -35,73 +35,12 @@ nav a{
 }
 
 
-#post{
-  display: flex;
-  width: 75%;
-  border: solid;
-  margin: auto;
-  margin-top: 4%;
-
-}
-
-#post2{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 20%;
-  text-align: center;
-  margin-top: 5%;
-  margin-bottom: 5%;
-}
-
-#ipic{
-  float: right;
-  object-fit: contain;
-  max-width: 80%;
-}
-
-#title{
-  color: red;
-}
-
-#date{
-  color: gray;
-}
-
-#author{
-  color: blue;
-}
-
-
-
-
-
-
-/*  also above used to be .7vw
-
-@media screen and (max-width: 1919px) {
-
-  #det{
-    font-size: 2vw;
-  }
-
-}
-
-*/
-
-
-
-
-#const{
-  text-align: center;
-  margin-top: 2%;
-}
-
 /*for centering logo at top*/
 #logo{
   text-align: center;
   margin-bottom: 0;
 }
+
 
 /*for sizing of top logo*/
 #logo img{
@@ -124,3 +63,7 @@ hr{
   background-color: white;
   margin-bottom: 4%;
 }
+
+
+
+/*post stuff*/
